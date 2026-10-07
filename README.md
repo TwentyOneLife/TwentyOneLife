@@ -71,17 +71,13 @@ How to check a download, and what each failure means:
 
 ## Supporting this work
 
-Donations are welcome in either coin. Each coin has its own address, so check which column you are
-in before sending.
+Donations are welcome in either coin. Each coin has its own address and its own colour, so check
+which column you are in before sending.
 
 <table>
 <tr>
-<th width="50%">Bitcoin Blake2b (BitcoinB2B)</th>
-<th width="50%">Bitcoin (SHA-256)</th>
-</tr>
-<tr>
-<td align="center"><img src="assets/donation-qr-blake2b.png" alt="Bitcoin Blake2b donation address for TwentyOne.Life" width="220"></td>
-<td align="center"><img src="assets/donation-qr-sha256.png" alt="Bitcoin donation address for TwentyOne.Life" width="220"></td>
+<td align="center" width="50%"><img src="assets/donation-blake2b.svg" alt="Bitcoin Blake2b (BitcoinB2B) donation address for TwentyOne.Life" width="260"></td>
+<td align="center" width="50%"><img src="assets/donation-sha256.svg" alt="Bitcoin (SHA-256) donation address for TwentyOne.Life" width="260"></td>
 </tr>
 <tr>
 <td>
@@ -115,3 +111,21 @@ other way round. Use the address under the name of the coin you are sending.
 
 There is no way to make that distinction visible in the address itself. It is a property of the fork,
 not an oversight.
+
+### Nostr and zaps
+
+TwentyOne.Life is on Nostr as [TwentyOneLife@primal.net](https://primal.net/TwentyOneLife). Follow
+there for updates, and if this work is useful to you, leave a zap on the profile or on a note.
+
+```
+npub1u6ld6j8evt6fawp7ylekhzqftz3lmxfx8jkaxtfq9ghcdplt4wes7vxkh6
+```
+
+The same name is a Lightning address, for a wallet that is not a Nostr client:
+
+```
+TwentyOneLife@primal.net
+```
+
+Zaps and Lightning payments are bitcoin, on the SHA-256 chain. There is no Lightning on Bitcoin
+Blake2b here.
