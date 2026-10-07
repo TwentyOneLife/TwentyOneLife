@@ -23,7 +23,7 @@ below are for.
 
 It is a separate chain and a separate asset. Coins on it are not bitcoin. Addresses look identical
 because the format is shared, not because the two are interchangeable, which is worth remembering
-before sending anything anywhere, including to the address at the bottom of this page.
+before sending anything anywhere, including to the addresses at the bottom of this page.
 
 ## Projects
 
@@ -71,24 +71,47 @@ How to check a download, and what each failure means:
 
 ## Supporting this work
 
-Donations in **BitcoinB2B**:
+Donations are welcome in either coin. Each coin has its own address, so check which column you are
+in before sending.
+
+<table>
+<tr>
+<th width="50%">Bitcoin Blake2b (BitcoinB2B)</th>
+<th width="50%">Bitcoin (SHA-256)</th>
+</tr>
+<tr>
+<td align="center"><img src="assets/donation-qr-blake2b.png" alt="Bitcoin Blake2b donation address for TwentyOne.Life" width="220"></td>
+<td align="center"><img src="assets/donation-qr-sha256.png" alt="Bitcoin donation address for TwentyOne.Life" width="220"></td>
+</tr>
+<tr>
+<td>
 
 ```
-1BH665bXvEqSuoWQUihiQiPpt2BqpzrgGD
+bc1ql66ssq24t7w4jl8updfrs820efnujp0m5jjuqk
 ```
 
-As a URI, which a wallet with a handler opens on a click, and which is what the QR encodes:
+</td>
+<td>
 
 ```
-bitcoin:1BH665bXvEqSuoWQUihiQiPpt2BqpzrgGD
+bc1qzz077zqg9e0ymy7euhrmfyfmsfuqggtlr7v9mf
 ```
 
-<img src="assets/donation-qr.png" alt="BitcoinB2B donation address for TwentyOne.Life" width="200">
+</td>
+</tr>
+<tr>
+<td align="center">Send from a Bitcoin Blake2b wallet.</td>
+<td align="center">Send from a Bitcoin wallet.</td>
+</tr>
+</table>
+
+Each QR encodes the address beneath it and nothing else.
 
 **Read this before sending.** Bitcoin Blake2b shares Bitcoin's address format and its genesis block,
-so the address above is a perfectly valid Bitcoin address as well, and nothing about it says which
-chain it belongs to. Send from a Bitcoin Blake2b wallet. Bitcoin sent to it is a different asset and
-is not a donation to this project, whatever your wallet shows you.
+so both addresses are valid on both chains, and nothing about an address says which chain it belongs
+to. The wallet you send from decides that. The two coins are different assets: bitcoin sent to the
+Bitcoin Blake2b address is still bitcoin, whatever your wallet shows you, and the same holds the
+other way round. Use the address under the name of the coin you are sending.
 
 There is no way to make that distinction visible in the address itself. It is a property of the fork,
 not an oversight.
