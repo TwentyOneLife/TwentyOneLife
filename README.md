@@ -71,17 +71,13 @@ How to check a download, and what each failure means:
 
 ## Supporting this work
 
-Donations are welcome in either coin. Each coin has its own address, so check which column you are
-in before sending.
+Donations are welcome in either coin. Each coin has its own address and its own colour, so check
+which column you are in before sending.
 
 <table>
 <tr>
-<th width="50%">Bitcoin Blake2b (BitcoinB2B)</th>
-<th width="50%">Bitcoin (SHA-256)</th>
-</tr>
-<tr>
-<td align="center"><img src="assets/donation-qr-blake2b.png" alt="Bitcoin Blake2b donation address for TwentyOne.Life" width="220"></td>
-<td align="center"><img src="assets/donation-qr-sha256.png" alt="Bitcoin donation address for TwentyOne.Life" width="220"></td>
+<td align="center" width="50%"><img src="assets/donation-blake2b.svg" alt="Bitcoin Blake2b (BitcoinB2B) donation address for TwentyOne.Life" width="260"></td>
+<td align="center" width="50%"><img src="assets/donation-sha256.svg" alt="Bitcoin (SHA-256) donation address for TwentyOne.Life" width="260"></td>
 </tr>
 <tr>
 <td>
