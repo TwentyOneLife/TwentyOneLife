@@ -115,3 +115,21 @@ other way round. Use the address under the name of the coin you are sending.
 
 There is no way to make that distinction visible in the address itself. It is a property of the fork,
 not an oversight.
+
+### Nostr and zaps
+
+TwentyOne.Life is on Nostr as [TwentyOneLife@primal.net](https://primal.net/TwentyOneLife). Follow
+there for updates, and if this work is useful to you, leave a zap on the profile or on a note.
+
+```
+npub1u6ld6j8evt6fawp7ylekhzqftz3lmxfx8jkaxtfq9ghcdplt4wes7vxkh6
+```
+
+The same name is a Lightning address, for a wallet that is not a Nostr client:
+
+```
+TwentyOneLife@primal.net
+```
+
+Zaps and Lightning payments are bitcoin, on the SHA-256 chain. There is no Lightning on Bitcoin
+Blake2b here.
