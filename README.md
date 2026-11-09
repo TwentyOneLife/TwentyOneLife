@@ -71,8 +71,18 @@ How to check a download, and what each failure means:
 
 ## Supporting this work
 
-Donations are welcome in either coin. Each coin has its own address and its own colour, so check
-which column you are in before sending.
+Donations are welcome in either coin. The simplest and most private option is a **silent payment**:
+one address that serves both coins, where every donation lands on a fresh, unlinkable address, so
+nothing clusters to the one you publish. Send to it from any wallet that supports silent payments
+(BIP352); it settles on whichever chain you send from.
+
+```
+sp1qq25802j9uk3t2yvthqmpxhp7pjus8rrvxyvlw27445qwhu3agd0kuqnqpct3v645d8x058tas4p83em7qdam8dr6t0ntecf2n00ywet7xc682jk7
+```
+
+If your wallet cannot send to a silent-payment address, use one of the standard addresses below
+instead. Each coin has its own address and its own colour, so check which column you are in before
+sending.
 
 <table>
 <tr>
